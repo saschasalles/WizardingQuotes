@@ -14,6 +14,7 @@
 		2B231CD125EEEE4000C50144 /* AddQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B231CD025EEEE4000C50144 /* AddQuoteView.swift */; };
 		2B231CD725EEEE9D00C50144 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B231CD625EEEE9D00C50144 /* Quote.swift */; };
 		2B231CDA25EEEF6200C50144 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B231CD925EEEF6200C50144 /* QuoteViewModel.swift */; };
+		2B231CDF25EF1D2900C50144 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B231CDE25EF1D2900C50144 /* ListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2B231CD025EEEE4000C50144 /* AddQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuoteView.swift; sourceTree = "<group>"; };
 		2B231CD625EEEE9D00C50144 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		2B231CD925EEEF6200C50144 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		2B231CDE25EF1D2900C50144 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,6 @@
 				2B231CD425EEEE8100C50144 /* ViewModels */,
 				2B231CD325EEEE7500C50144 /* Views */,
 				2B231CC025EEEE1C00C50144 /* WizardingQuotesApp.swift */,
-				2B231CC225EEEE1C00C50144 /* ContentView.swift */,
 				2B231CC425EEEE1D00C50144 /* Assets.xcassets */,
 				2B231CC925EEEE1D00C50144 /* Info.plist */,
 				2B231CC625EEEE1D00C50144 /* Preview Content */,
@@ -82,6 +83,8 @@
 		2B231CD325EEEE7500C50144 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2B231CC225EEEE1C00C50144 /* ContentView.swift */,
+				2B231CDE25EF1D2900C50144 /* ListItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B231CDF25EF1D2900C50144 /* ListItemView.swift in Sources */,
 				2B231CD725EEEE9D00C50144 /* Quote.swift in Sources */,
 				2B231CDA25EEEF6200C50144 /* QuoteViewModel.swift in Sources */,
 				2B231CD125EEEE4000C50144 /* AddQuoteView.swift in Sources */,
